@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		773FD5B11CF146C200B8755E /* OptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773FD5AF1CF146C200B8755E /* OptionsCell.swift */; };
+		773FD5B21CF146C200B8755E /* OptionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773FD5B01CF146C200B8755E /* OptionsCell.xib */; };
+		773FD5B41CF148AE00B8755E /* TableCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773FD5B31CF148AE00B8755E /* TableCellModel.swift */; };
+		773FD5B61CF163EF00B8755E /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773FD5B51CF163EF00B8755E /* MapsViewController.swift */; };
+		774128241CF11A58001A58D3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774128231CF11A58001A58D3 /* DataModel.swift */; };
 		77CF4C061CF040A200E03E90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CF4C051CF040A200E03E90 /* AppDelegate.swift */; };
 		77CF4C081CF040A200E03E90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CF4C071CF040A200E03E90 /* ViewController.swift */; };
 		77CF4C0B1CF040A200E03E90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CF4C091CF040A200E03E90 /* Main.storyboard */; };
@@ -14,6 +19,9 @@
 		77CF4C101CF040A200E03E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CF4C0E1CF040A200E03E90 /* LaunchScreen.storyboard */; };
 		77CF4C1B1CF040A300E03E90 /* cityrideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CF4C1A1CF040A300E03E90 /* cityrideTests.swift */; };
 		77CF4C261CF040A300E03E90 /* cityrideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CF4C251CF040A300E03E90 /* cityrideUITests.swift */; };
+		77D981601CF0DD6D003D54C5 /* BaseNetworkClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9815F1CF0DD6D003D54C5 /* BaseNetworkClass.swift */; };
+		77D981641CF0DEA7003D54C5 /* RideShareChoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D981631CF0DEA7003D54C5 /* RideShareChoices.swift */; };
+		82269253032CEDB4F4871EC8 /* Pods_cityride.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE182231F604901B035F5F07 /* Pods_cityride.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3054644DC846E64A6C189E0C /* Pods-cityride.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cityride.release.xcconfig"; path = "Pods/Target Support Files/Pods-cityride/Pods-cityride.release.xcconfig"; sourceTree = "<group>"; };
+		44C73747D9577DF1AD11A502 /* Pods-cityride.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cityride.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cityride/Pods-cityride.debug.xcconfig"; sourceTree = "<group>"; };
+		773FD5AF1CF146C200B8755E /* OptionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsCell.swift; sourceTree = "<group>"; };
+		773FD5B01CF146C200B8755E /* OptionsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsCell.xib; sourceTree = "<group>"; };
+		773FD5B31CF148AE00B8755E /* TableCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCellModel.swift; sourceTree = "<group>"; };
+		773FD5B51CF163EF00B8755E /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		774128231CF11A58001A58D3 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		77CF4C021CF040A200E03E90 /* cityride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cityride.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CF4C051CF040A200E03E90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77CF4C071CF040A200E03E90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,9 @@
 		77CF4C211CF040A300E03E90 /* cityrideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cityrideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CF4C251CF040A300E03E90 /* cityrideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cityrideUITests.swift; sourceTree = "<group>"; };
 		77CF4C271CF040A300E03E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D9815F1CF0DD6D003D54C5 /* BaseNetworkClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNetworkClass.swift; sourceTree = "<group>"; };
+		77D981631CF0DEA7003D54C5 /* RideShareChoices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideShareChoices.swift; sourceTree = "<group>"; };
+		CE182231F604901B035F5F07 /* Pods_cityride.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cityride.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82269253032CEDB4F4871EC8 /* Pods_cityride.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				77CF4C191CF040A300E03E90 /* cityrideTests */,
 				77CF4C241CF040A300E03E90 /* cityrideUITests */,
 				77CF4C031CF040A200E03E90 /* Products */,
+				848697A7FBA60725DE73F0FF /* Pods */,
+				BBB440A57671B71AFBA5F9B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +124,13 @@
 				77CF4C0C1CF040A200E03E90 /* Assets.xcassets */,
 				77CF4C0E1CF040A200E03E90 /* LaunchScreen.storyboard */,
 				77CF4C111CF040A200E03E90 /* Info.plist */,
+				77D9815F1CF0DD6D003D54C5 /* BaseNetworkClass.swift */,
+				77D981631CF0DEA7003D54C5 /* RideShareChoices.swift */,
+				774128231CF11A58001A58D3 /* DataModel.swift */,
+				773FD5AF1CF146C200B8755E /* OptionsCell.swift */,
+				773FD5B01CF146C200B8755E /* OptionsCell.xib */,
+				773FD5B31CF148AE00B8755E /* TableCellModel.swift */,
+				773FD5B51CF163EF00B8755E /* MapsViewController.swift */,
 			);
 			path = cityride;
 			sourceTree = "<group>";
@@ -125,6 +153,23 @@
 			path = cityrideUITests;
 			sourceTree = "<group>";
 		};
+		848697A7FBA60725DE73F0FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44C73747D9577DF1AD11A502 /* Pods-cityride.debug.xcconfig */,
+				3054644DC846E64A6C189E0C /* Pods-cityride.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BBB440A57671B71AFBA5F9B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE182231F604901B035F5F07 /* Pods_cityride.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77CF4C2A1CF040A300E03E90 /* Build configuration list for PBXNativeTarget "cityride" */;
 			buildPhases = (
+				16C9FD6FB79B2C9ACB84DA31 /* Check Pods Manifest.lock */,
 				77CF4BFE1CF040A200E03E90 /* Sources */,
 				77CF4BFF1CF040A200E03E90 /* Frameworks */,
 				77CF4C001CF040A200E03E90 /* Resources */,
+				7CD85A4A25ED32B5DAC4381F /* Embed Pods Frameworks */,
+				E780F3A5A65204F31DF3E62E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773FD5B21CF146C200B8755E /* OptionsCell.xib in Resources */,
 				77CF4C101CF040A200E03E90 /* LaunchScreen.storyboard in Resources */,
 				77CF4C0D1CF040A200E03E90 /* Assets.xcassets in Resources */,
 				77CF4C0B1CF040A200E03E90 /* Main.storyboard in Resources */,
@@ -251,12 +300,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16C9FD6FB79B2C9ACB84DA31 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD85A4A25ED32B5DAC4381F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cityride/Pods-cityride-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E780F3A5A65204F31DF3E62E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cityride/Pods-cityride-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		77CF4BFE1CF040A200E03E90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				774128241CF11A58001A58D3 /* DataModel.swift in Sources */,
+				773FD5B41CF148AE00B8755E /* TableCellModel.swift in Sources */,
+				77D981601CF0DD6D003D54C5 /* BaseNetworkClass.swift in Sources */,
+				773FD5B61CF163EF00B8755E /* MapsViewController.swift in Sources */,
+				773FD5B11CF146C200B8755E /* OptionsCell.swift in Sources */,
 				77CF4C081CF040A200E03E90 /* ViewController.swift in Sources */,
+				77D981641CF0DEA7003D54C5 /* RideShareChoices.swift in Sources */,
 				77CF4C061CF040A200E03E90 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +502,7 @@
 		};
 		77CF4C2B1CF040A300E03E90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C73747D9577DF1AD11A502 /* Pods-cityride.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cityride/Info.plist;
@@ -410,6 +514,7 @@
 		};
 		77CF4C2C1CF040A300E03E90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3054644DC846E64A6C189E0C /* Pods-cityride.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cityride/Info.plist;
@@ -484,6 +589,7 @@
 				77CF4C2C1CF040A300E03E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77CF4C2D1CF040A300E03E90 /* Build configuration list for PBXNativeTarget "cityrideTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +598,7 @@
 				77CF4C2F1CF040A300E03E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77CF4C301CF040A300E03E90 /* Build configuration list for PBXNativeTarget "cityrideUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +607,7 @@
 				77CF4C321CF040A300E03E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
